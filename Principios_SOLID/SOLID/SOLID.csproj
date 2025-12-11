@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01-SRP\SRP.Solucao\Cliente.cs" />
+    <Compile Include="01-SRP\SRP.Solucao\ClienteRepository.cs" />
+    <Compile Include="01-SRP\SRP.Solucao\ClienteService.cs" />
+    <Compile Include="01-SRP\SRP.Solucao\CPFServices.cs" />
+    <Compile Include="01-SRP\SRP.Solucao\EmailServices.cs" />
     <Compile Include="01-SRP\SRP.Violacao\Cliente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,8 +55,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="01-SRP\SRP.Solucao\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
