@@ -49,6 +49,10 @@
     <Compile Include="01-SRP\SRP.Solucao\CPFServices.cs" />
     <Compile Include="01-SRP\SRP.Solucao\EmailServices.cs" />
     <Compile Include="01-SRP\SRP.Violacao\Cliente.cs" />
+    <Compile Include="02-OCP\OCP.Solucao\DebitoConta.cs" />
+    <Compile Include="02-OCP\OCP.Solucao\DebitoContaCorrente.cs" />
+    <Compile Include="02-OCP\OCP.Solucao\DebitoContaInvestimento.cs" />
+    <Compile Include="02-OCP\OCP.Solucao\DebitoContaPoupanca.cs" />
     <Compile Include="02-OCP\OCP.Violacao\DebitoConta.cs" />
     <Compile Include="02-OCP\OCP.Violacao\TipoConta.cs" />
     <Compile Include="Program.cs" />
@@ -57,8 +61,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="02-OCP\OCP.Solucao\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
