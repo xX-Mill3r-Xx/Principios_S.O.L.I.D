@@ -55,7 +55,9 @@
     <Compile Include="02-OCP\OCP.Solucao\DebitoContaPoupanca.cs" />
     <Compile Include="02-OCP\OCP.Violacao\DebitoConta.cs" />
     <Compile Include="02-OCP\OCP.Violacao\TipoConta.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="03-LSP\LSP.Violacao\Program.cs" />
+    <Compile Include="03-LSP\LSP.Violacao\Quadrado.cs" />
+    <Compile Include="03-LSP\LSP.Violacao\Retangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
