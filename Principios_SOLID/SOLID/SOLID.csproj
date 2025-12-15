@@ -58,11 +58,16 @@
     <Compile Include="03-LSP\LSP.Violacao\Program.cs" />
     <Compile Include="03-LSP\LSP.Violacao\Quadrado.cs" />
     <Compile Include="03-LSP\LSP.Violacao\Retangulo.cs" />
+    <Compile Include="04-ISP\ISP.Violacao\CadastroCliente.cs" />
+    <Compile Include="04-ISP\ISP.Violacao\CadastroProduto.cs" />
+    <Compile Include="04-ISP\ISP.Violacao\ICadastro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="04-ISP\ISP.Solucao\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
