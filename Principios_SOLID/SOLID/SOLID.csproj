@@ -65,6 +65,15 @@
     <Compile Include="04-ISP\ISP.Violacao\CadastroCliente.cs" />
     <Compile Include="04-ISP\ISP.Violacao\CadastroProduto.cs" />
     <Compile Include="04-ISP\ISP.Violacao\ICadastro.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\Cliente.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\ClienteRepositiry.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\ClienteServices.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\CPFServices.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\EmailServices.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\Interfaces\IClienteRepository.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\Interfaces\IClienteServices.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\Interfaces\ICPFServices.cs" />
+    <Compile Include="05-DIP\DIP.Solucao\Interfaces\IEmailServices.cs" />
     <Compile Include="05-DIP\DIP.Violacao\Cliente.cs" />
     <Compile Include="05-DIP\DIP.Violacao\ClienteRepository.cs" />
     <Compile Include="05-DIP\DIP.Violacao\ClienteService.cs" />
@@ -75,8 +84,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="05-DIP\DIP.Solucao\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
