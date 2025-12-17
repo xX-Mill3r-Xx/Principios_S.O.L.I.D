@@ -65,11 +65,18 @@
     <Compile Include="04-ISP\ISP.Violacao\CadastroCliente.cs" />
     <Compile Include="04-ISP\ISP.Violacao\CadastroProduto.cs" />
     <Compile Include="04-ISP\ISP.Violacao\ICadastro.cs" />
+    <Compile Include="05-DIP\DIP.Violacao\Cliente.cs" />
+    <Compile Include="05-DIP\DIP.Violacao\ClienteRepository.cs" />
+    <Compile Include="05-DIP\DIP.Violacao\ClienteService.cs" />
+    <Compile Include="05-DIP\DIP.Violacao\CPFServices.cs" />
+    <Compile Include="05-DIP\DIP.Violacao\EmailServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="05-DIP\DIP.Solucao\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
